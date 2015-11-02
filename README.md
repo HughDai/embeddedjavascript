@@ -41,7 +41,7 @@ EJS includes view helpers to make building repetitive HTML snippets easier. The 
 
 ##Example
 The following builds a form that adds cleaning supplies.
-```html
+```ejs
 <%= form_tag('/cleaning/add_supply') %>
         <%= input_field_tag('cleaning_supply') %>
         <%= submit_tag('Submit') %>
